@@ -29,7 +29,7 @@ export const Welcome = ({ navigation }: WelcomeScreenParamList) => {
       <View style={{ height: 145 }}>
         <Button
           title="Get Started"
-          onPress={() => navigation.navigate("Onboarding")}
+          onPress={() => navigation.replace("Onboarding")}
         />
         <Text style={styles.bottomText}>
           By tapping next, you are agreeing to PlantID Terms of Use & Privacy
